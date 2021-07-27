@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lucca Nogueira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-06 12:51:41 "/>
+        <attribute name="created" value="THVjY2EgTm9ndWVpcmE7REVTS1RPUC0yNThPVkJROzIwMjEtMDctMDY7IjEyOjM1OjM1ICI7MzU5Mg=="/>
+        <attribute name="edited" value="THVjY2EgTm9ndWVpcmE7REVTS1RPUC0yNThPVkJROzIwMjEtMDctMDY7IjEyOjUxOjQxICI7MzszNjk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha qual tabuada sera apresentada: &quot;" newline="True"/>
+            <input variable="tabuada"/>
+            <assign variable="n" expression="0"/>
+            <while expression="n&lt;=10">
+                <output expression="tabuada &amp; &quot; x &quot; &amp; n &amp; &quot; = &quot; &amp; tabuada*n" newline="True"/>
+                <assign variable="n" expression="n+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

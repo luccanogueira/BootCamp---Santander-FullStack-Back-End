@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lucca Nogueira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-06 12:35:18 "/>
+        <attribute name="created" value="THVjY2EgTm9ndWVpcmE7REVTS1RPUC0yNThPVkJROzIwMjEtMDctMDY7IjEyOjMwOjUzICI7MzU4Nw=="/>
+        <attribute name="edited" value="THVjY2EgTm9ndWVpcmE7REVTS1RPUC0yNThPVkJROzIwMjEtMDctMDY7IjEyOjM1OjE4ICI7MTszNzAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1 + n2 + n3 + n4)/4"/>
+            <output expression="&quot;Suas notas foram: &quot; &amp; n1 &amp; &quot;; &quot; &amp; n2 &amp; &quot;; &quot;&amp; n3 &amp; &quot; e &quot;&amp; n4 &amp; &quot; Sua media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
